@@ -11,7 +11,7 @@ export default function Personal(props: { image: any; position: string | number 
                     sizes='100%'
                     className='object-cover h-full w-full absolute'
                     src={props.image}
-                    alt='https://www.youtube.com'
+                    alt={'Team Member'}
                 /></div>
             <h3 className='font-medium md:text-lg text-base'>{props.position}</h3>
             <p className='md:text-sm font-light text-xs'>{props.title}</p>

@@ -68,15 +68,15 @@ export default function Navbar() {
                         <div className="pt-28">
                             <SheetTitle className="text-primary font-medium md:text-sm text-xs">Socials</SheetTitle>
                             <SheetDescription className="pt-10 grid gap-5">
-                                <a href={'https://www.youtube.com'} className="flex gap-3 items-center">
+                                <a href={'https://twitter.com/globalblders'} className="flex gap-3 items-center">
                                     <Icon icon={Twitter} className="h-5 md:h-6 w-5 md:w-6" />
                                     <p className="text-sm md:text-base font-semibold">Twitter</p>
                                 </a>
-                                <a href={'https://www.youtube.com'} className="flex gap-3 items-center">
+                                <a href={'#'} className="flex gap-3 items-center">
                                     <Icon icon={Discord} className="h-5 md:h-6 w-5 md:w-6" />
                                     <p className="text-sm md:text-base font-semibold">Discord</p>
                                 </a>
-                                <a href={'https://www.youtube.com'} className="flex gap-3 items-center">
+                                <a href={'#'} className="flex gap-3 items-center">
                                     <Icon icon={Telegram} className="h-5 md:h-6 w-5 md:w-6" />
                                     <p className="text-sm md:text-base font-semibold">Telegram</p>
                                 </a>
