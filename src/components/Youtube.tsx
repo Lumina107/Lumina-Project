@@ -3,7 +3,7 @@ import { Suspense } from 'react'
 
 export default function Youtube() {
     return (
-        <section className='flex justify-center md:pb-32 pb-20'>
+        <section className='flex justify-center md:pb-32 pb-10'>
             <div className="flex flex-col items-center lg:gap-14 md:gap-10 gap-7  w-screen">
                 <h4 className='max-w-5xl mx-auto'>
                     Lumina has helped over 45+ crypto companies raise

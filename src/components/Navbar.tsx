@@ -50,10 +50,10 @@ export default function Navbar() {
                         <SheetHeader className="text-left">
                             <SheetTitle className="text-primary font-medium md:text-sm text-xs">Menu</SheetTitle>
                             <SheetDescription className="pt-5 grid gap-4">
-                                <a href={'https://www.youtube.com'}>
+                                <a href={'#'}>
                                     <p className="md:text-xl text-base">Home</p>
                                 </a>
-                                <a href={'https://www.youtube.com'}>
+                                <a href={'#services'}>
                                     <p className="md:text-xl text-base">Service</p>
                                 </a>
                                 <a href={'#caseStudy'}>

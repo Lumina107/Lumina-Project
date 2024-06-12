@@ -5,7 +5,7 @@ import StarLong from '@/assets/icons/starLong.png'
 
 export default function Achievements() {
     return (
-        <section className='pb-24'>
+        <section className='pb-24 pt-10' id='services'>
             <div className="flex flex-col items-center">
                 <div className="flex items-center justify-center gap-5">
                     <Icon icon={StarLong} className={'h-10 w-10'} />
