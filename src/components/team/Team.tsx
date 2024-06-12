@@ -1,7 +1,7 @@
 import Personal from './Personal'
 import Fouunder from '@/assets/images/founder.png';
 import Business from '@/assets/images/development.png';
-import Operation from '@/assets/images/marketing.png';
+import Operation from '@/assets/images/marketing.jpeg';
 import Head from '@/assets/images/collaboration.png';
 import Community from '@/assets/images/community.png';
 
@@ -15,7 +15,7 @@ export default function Team() {
                         MEET THE <br />
                         TEAM
                     </h1>
-                    <p className='font-light lg:text-xl text-base opacity-55 max-w-sm'>
+                    <p className='font-light lg:text-xl text-base opacity-55 max-w-md'>
                         Meet the team at lumina. we are specialiy
                         qualified with the right experience in bringing out the teams success </p>
                 </div>
@@ -25,6 +25,7 @@ export default function Team() {
                             return (
                                 <Personal
                                     key={idx}
+                                    id={idx}
                                     image={items.image}
                                     position={items.position}
                                     title={items.title}

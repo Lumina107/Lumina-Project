@@ -10,7 +10,7 @@ export default function Contact() {
                 <div>
                     <Calendly />
                 </div>
-                <div className="">
+                <div>
                     <h1 className='font-semibold lg:text-5xl text-2xl md:text-3xl'>BOOK INTRO CALL</h1>
                     <p className='font-light md:text-base text-sm mt-3'>WHAT DO YOU GET ON THIS FREE MEETING?</p>
                     <div className="mt-10 grid gap-6">

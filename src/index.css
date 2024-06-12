@@ -36,7 +36,7 @@ main {
 main .banner {
   background-image: url("assets/images/bannerBackgrounds.png");
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: bottom left;
   background-size: cover;
   display: flex;
   flex-direction: column;

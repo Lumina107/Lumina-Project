@@ -14,14 +14,13 @@ export default function Partner() {
 
     return (
         <section className='flex justify-center'>
-
-            <div className="pt-20 text-center flex flex-col items-center">
+            <div className="pt-5s text-center flex flex-col items-center">
                 <h4>
                     Partners in our ecosystem
                 </h4>
                 <Carousel />
 
-                <div className="lg:mb-32 lg:mt-20 md:mt-10 md:mb-24 mt-8 mb-16 grid grid-cols-2 md:grid-cols-2 lg:flex items-center gap-x-8 md:gap-x-12 lg:gap-16">
+                <div className="lg:mb-32 md:mt-20 md:mb-24 mt-8 mb-16 grid grid-cols-2 md:grid-cols-2 lg:flex items-center gap-x-8 md:gap-x-12 lg:gap-16">
                     {
                         Achieve.map((items, idx) => (
                             <div
@@ -40,9 +39,9 @@ export default function Partner() {
                                             end={items.value}
                                             enableScrollSpy={true}
                                             scrollSpyDelay={1}
-                                            scrollSpyOnce={true}
                                             duration={3}
                                             startOnMount={false}
+                                            prefix={items.prefix}
                                         />
                                         {' '}{items.target}+</h3>
                                     <p className='font-light text-sm'>{items.campaign}</p>
@@ -64,6 +63,7 @@ const Achieve = [
         value: 100,
         target: 'Million',
         campaign: 'Funding rasied',
+        prefix: '$'
     },
     {
         value: 6,
@@ -74,6 +74,7 @@ const Achieve = [
         value: 500,
         target: 'Million',
         campaign: 'Volume',
+        prefix: '$'
     },
     {
         value: 45,
