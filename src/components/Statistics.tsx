@@ -8,7 +8,7 @@ export default function Statistics() {
 
     return (
         <section className="p-0 relative bg-no-repeat bg-cover bg-left-top my-6 ">
-            <div className="overflow-hidden absolute inset-0 flex right-0 p-0 md:top-20 gap-5 flex-col justify-end">
+            <div className="overflow-hidden absolute inset-0 flex right-0 p-0 md:top-20 -top-14 gap-5 flex-col justify-end">
                 <StatisticCarousel />
             </div>
 
