@@ -1,6 +1,6 @@
 import Personal from './Personal'
 import Fouunder from '@/assets/images/founder.png';
-import Business from '@/assets/images/development.png';
+import Business from '@/assets/images/development.jpeg';
 import Operation from '@/assets/images/marketing.jpeg';
 import Head from '@/assets/images/collaboration.png';
 import Community from '@/assets/images/community.png';
@@ -51,15 +51,15 @@ const TeamMembers = [
     },
     {
         image: Business,
-        title: 'Cullen Iwata',
-        position: 'Business development',
+        title: 'John Rodriguez',
+        position: 'Business Development',
         twitter: '#',
         linkedin: '#',
     },
     {
         image: Operation,
-        title: 'John Rodriguez',
-        position: 'Operation / Marketing',
+        title: 'Harley Hume',
+        position: 'Head of Operation',
         twitter: '#',
         linkedin: '#',
     },

@@ -123,7 +123,7 @@ const caseStudy = [
             },
             {
                 suffix: '$',
-                value: 750,
+                value: 10,
                 extention: 'K',
                 opera: 'NFT sell'
             },
