@@ -4,7 +4,7 @@ import Business from '@/assets/images/development.jpeg';
 import Operation from '@/assets/images/marketing.jpeg';
 import Head from '@/assets/images/collaboration.png';
 import Community from '@/assets/images/community.png';
-
+import Development from './../../assets/images/business.png';
 
 export default function Team() {
     return (
@@ -46,6 +46,13 @@ const TeamMembers = [
         image: Fouunder,
         title: 'Rhys Mckay',
         position: 'Founder',
+        twitter: '#',
+        linkedin: '#',
+    },
+    {
+        image: Development,
+        title: 'Cullen Iwata',
+        position: 'Business Development',
         twitter: '#',
         linkedin: '#',
     },
