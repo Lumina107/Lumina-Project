@@ -12,7 +12,7 @@ export default function Youtube() {
                 <Suspense fallback={<IframeLoadingState />}>
                   <iframe
                         className='max-w-[1100px] bg-white md:h-[600px] h-64 w-full'
-                        src="https://rhys-5.wistia.com/medias/3ybmkgigkc?wvideo=3ybmkgigkc"
+                        src="https://youtu.be/Z35RqTHpb1o?si=UGH9GJkOclDgbAuf"
                         title="Lumina"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"
